@@ -402,7 +402,7 @@ SPDX-License-Identifier: Apache-2.0
     <!-- Attach child -->
     <joint name="${prefix}child_joint" type="fixed">
       <origin xyz="0 0 0" rpy="0 0 0" />
-      <parent link="${prefix}flange" />
+      <parent link="${prefix}fanuc_flange" />
       <child link="${child}" />
     </joint>
   </xacro:macro>
